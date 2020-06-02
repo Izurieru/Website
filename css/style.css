@@ -1,15 +1,29 @@
+* {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
 html {
-    font-size: 20px;
+  scroll-behavior: smooth;
+  font-size: 20px;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+nav {
+  display: inline-block;
+  margin: 0.25rem;
 }
 
-h1 {
-    font-size: 7rem;
+.nav-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
+
+.nav-link a {
+  padding: 0.25rem;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
