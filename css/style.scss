@@ -7,18 +7,32 @@ html {
     font-size: 20px;
 }
 
-nav {
-    display: inline-block;
-    margin: 0.25rem;
-}
-
-.nav-link {
+header {
     display: flex;
     justify-content: flex-end;
-    
-    a {
-        padding: 0.25rem;
-        text-decoration: none;
-        
+
+    nav {
+        margin-right: 1rem;
+
+        a {
+            display: inline-block;
+            text-decoration: none;
+            margin-top: 1rem;
+            padding-right: 0.4rem;
+            color: black;
+        }
+    }
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    h1 {
+        font-size: 3rem;
+        font-weight: bold;
+        text-align: center;
+
     }
 }
