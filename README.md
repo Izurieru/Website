@@ -1,3 +1,3 @@
 # Website
 
-Code for my [website](jezreelmartin.netlify.app)
+Code for my [website](https://jezreelmartin.netlify.app)
